@@ -1,0 +1,238 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+/* Styles for Top Bar */
+.top-bar {
+    background-color: #68a8f1; /* Background color of the top bar */
+    color: white; /* Text color */
+    padding: 10px 0; /* Adjust padding as needed */
+}
+
+.top-bar ul {
+    list-style-type: none;
+    text-align: center;
+    border-image-width: 100%;
+}
+
+.top-bar ul li {
+    display: inline;
+    margin: 0 10px; /* Adjust margin between items */
+}
+
+.top-bar ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.top-bar ul li a:hover {
+    text-decoration: underline;
+}
+
+
+.container {
+    width: 90%; /* Adjust as needed */
+    margin: 0 auto; /* Centers the container horizontally */
+}
+
+/* Styles for screens smaller than 600px */
+@media screen and (max-width: 600px) {
+    .container {
+        width: 100%; /* Adjust as needed */
+    }
+}
+
+
+h1, h2, h3 {
+    color: #2c3e50;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #2980b9;
+    color: white;
+}
+
+td {
+    background-color: #ecf0f1;
+}
+
+/* Header Styles */
+table img {
+    border-radius: 50%;
+    margin-right: 20px;
+    z-index: 1;
+}
+
+h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+h2 {
+    font-size: 28px;
+    border-bottom: 2px solid #2980b9;
+    padding-bottom: 10px;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background: #2980b9;
+    margin: 40px 0;
+}
+
+/* Project List Styles */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin: 20px 0;
+}
+
+li h3 {
+    margin: 0 0 10px 0;
+}
+
+li p {
+    margin: 0;
+}
+
+/* Footer Styles */
+div h2 {
+    margin: 0 0 10px 0;
+}
+
+div p {
+    margin: 5px 0;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    table {
+        display: block;
+        width: 100%;
+    }
+
+    th, td {
+        display: block;
+        width: 100%;
+    }
+
+    th {
+        background-color: transparent;
+        color: #333;
+    }
+
+    td {
+        background-color: transparent;
+    }
+
+    table img {
+        width: 100%;
+        height: auto;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+}
+.container {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+textarea {
+    height: 100px;
+}
+
+input[type="submit"] {
+    width: 100%;
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button{
+    border-color: #000000 ;
+    background-color: #4caf50;
+    margin: auto;
+    align-items: center;
+    box-shadow: 2px 2px lightgray;
+    border-radius: 5px;
+}
+
+.hidden {
+    display: none;
+}
